@@ -14,4 +14,5 @@ func main() {
 		c.JSON(200, gin.H{"message": "Hello, World!"})
 		fmt.Println("hello,我是Zachary分支")
 		fmt.Println("什么情况 我重新来一次")
+		fmt.Println("我才是最新的")
 	})
